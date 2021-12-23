@@ -84,3 +84,13 @@ body {
     border-left-color: #EFC050;
     border-right-color: #B565A7;
 }
+
+
+/* Media Query section */
+
+@media (max-width:1200px) {
+    .restartBtn {
+        display: block;
+        margin: 10% auto;
+    }
+}
