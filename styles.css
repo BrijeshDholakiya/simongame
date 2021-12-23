@@ -88,12 +88,6 @@ body {
 /* Media Query section */
 
 @media (max-width:1200px) {
-  .btn {
-    margin: -1px;
-    height: 140px;
-    width: 140px;
-    border: 5px solid black;
-  }
   #level-title {
     font-size: 2.0rem;
     margin:  5%;
@@ -111,19 +105,7 @@ body {
   } 
 }
 
-  @media only screen and (max-width:620px) {
-    .btn {
-      height: 150px;
-      width: 150px;
-      margin: -1px;
-      border: 5px solid black;
-    }
-
-    /* .row{
-      display: block;
-      width: 100%;
-      margin: auto;
-    } */
+  @media only screen and (max-width:620px) {    
   
     #level-title {
       font-size: 1.5rem;
